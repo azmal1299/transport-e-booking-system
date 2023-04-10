@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+}
+.single-car{
+    background-color: aquamarine;
+    height: 300vh;    
+    width: 100%;  
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.single-car .ho-p{
+   position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+    background: none;
+    text-decoration:none;
+    cursor: pointer;
+}
+.single-car .ho-p:hover{
+    text-decoration: underline;
+    transition: .3s;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+}
+.single-car .ho-p2{
+   position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+    background: none;
+    text-decoration:none;
+    cursor: pointer;
+}
+.single-car .ho-p2:hover{
+    text-decoration: underline;
+    transition: .3s;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+}
+
+.single-car .container{
+    background-color: white;
+    width:80%;
+    height: 300vh;
+}
+.single-car img{
+    width: 950px;
+    height: 500px;
+}
+.single-car .text{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.single-car .row{
+    display: flex;
+    flex-wrap: wrap;
+    border:none;
+    margin-right: -15px;
+    margin-left: -15px;
+    border: 1px solid rgb(190, 181, 181);
+}
+.single-car .icons-1{
+  color: rgb(9, 114, 184);
+  font-size: 30px;
+}
+.single-car .cat-det{
+  display: flex;
+  flex-direction: column;
+}
+.single-car .col{
+    flex-basis: 0;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    flex-grow: 1;
+    -webkit-box-flex: 1;
+    max-width: 100%;
+}
+.single-car .media{
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+
+}
+.single-car .media-body p{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.single-car .content-list{
+  align-items: center;
+  text-align: center;
+  justify-content: center;  
+  display: flex;
+  flex-direction: row;
+}
+.single-car .content-list .nav{
+  font-size: 20px;
+  font-weight: 400;
+  display: inline-block;
+}
+.single-car .content-list .nav li{
+  display: inline-block;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.single-car .content-list .nav li:hover{
+  cursor: pointer;
+}
+.single-car .tab-content{
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
+  
+  
+}
+.single-car .tab-content .features{
+  list-style: none;
+  margin-top: 50px;
+  font-size: 18px;
+  display:flex;
+  flex-direction: column;
+}
+.single-car .icons{
+  color: rgb(11, 125, 218);
+  font-size:20PX;
+}
+.single-car .icon{
+  color: red;
+  font-size: 20px;
+}
+.single-car .discription h3{
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+.single-car .discription p{
+  font-size: 25px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.single-car .button{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.single-car .btns .book{
+  color: white;
+  background-color:rgb(75, 160, 139);
+  border-radius: 5px;
+  border: .5px solid rgb(20, 104, 153);
+  padding: 8px 20px;
+  font-size: 25px;
+}
+.single-car .btns .book:hover{
+  font-size: 27px;
+  background-color:  rgb(14, 94, 139);
+  transition: .5s;
+}
+.single-car .btns .download-btn{
+  position: absolute;
+  right: 10px;
+  font-size: 25px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color:rgb(218, 138, 34);
+  border: .5px solid rgb(20, 104, 153);
+  color: white;
+}
+.single-car .btns .download-btn:hover{
+  font-size: 25px;
+  background-color: rgb(226, 129, 3);
+  transition: .5s;
+}

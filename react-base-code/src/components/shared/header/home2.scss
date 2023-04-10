@@ -1,0 +1,63 @@
+#main-header{
+    background-image: linear-gradient(198deg, #45b1a6, #91bf8d);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.navbar-list ul {
+    display: flex;
+}
+.navbar-list .nav-link {
+    margin: 0 10px;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: 500;
+    font-family: monospace;
+    letter-spacing: 1.5px;
+    position: relative;
+    padding-bottom: 5px;
+}
+.navbar-list .nav-link::after {
+    content: "";
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.3s ease-in-out all;
+}
+.navbar-list .nav-link.active:hover::after,
+.navbar-list .nav-link:hover::after,
+.navbar-list .nav-link.active::after{
+    width: 90%;
+    transition: 0.3s ease-in-out all;
+    background:  linear-gradient(116deg, #810a66 0%, #204caf 100%, #537cd8d4 100%);
+}
+.navbar-list .nav-link.active,
+.navbar-list .nav-link:hover {
+    font-weight: 800;
+    background: linear-gradient(116deg, #810a66 0%, #204caf 100%, #537cd8d4 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.nav-logo{
+    line-height: unset;
+    display: flex;
+}
+.nav-logo .site-logo {
+    width: 110px;
+    background: #ffffff7a;
+    border-radius: 8px;
+}

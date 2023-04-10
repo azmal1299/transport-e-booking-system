@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(37, 56, 56);
+    height: 130vh;
+    width: 100%; 
+}
+
+.con nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid black;
+}
+
+.con .navbar {
+    position: absolute;
+    top: 0;
+    padding: 25px 20px;
+    height: 80px;
+    float: left;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: rgb(252, 252, 252);
+}
+
+.con span {
+    color: rgb(201, 140, 118);
+}
+
+.con ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+
+    li a {
+        line-height: 80px;
+        color: rgb(252, 251, 251);
+        padding: 12px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 40px;
+        text-transform: capitalize;
+ 
+    }
+    .con ul li a:hover {
+        background-color: aliceblue;
+        color: black;
+        border-radius: 6px;
+        transition: 2s;
+    }
+}
+.con ul li a:hover {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 6px;
+    transition: 2s;
+}
+
+.contact {
+    top: 15vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    margin-top: 70px;
+    width: 100%;
+    height: 130vh;
+    color: white;
+    background-color: rgb(37, 56, 56);
+    font-family: 'roboto' sans-serif;
+}
+
+.contact .ho-p {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+    background: none;
+    text-decoration: none;
+    cursor: pointer;
+    .ho-p:hover {
+        text-decoration: underline;
+        transition: .3s;
+        font-size: 17px;
+        border-radius: 5px;
+        color: white;
+    }
+}
+
+
+
+
+.submit-msg {
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+
+    .submit-msg:hover {
+        background-color: rgb(170, 170, 204);
+        border-radius: 5px;
+        color: black;
+    }
+}
+
+.contact .mobile ul {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .email ul {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h1 {
+    position: absolute;
+    margin-top: -600px;
+    text-transform: capitalize;
+}
+
+.contact h6 {
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.contact .form {
+    background-color: rgb(18, 27, 27);
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .form .min {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 20px;
+
+    label {
+        margin-top: 25px;
+    }
+
+    input {
+        position: relative;
+        width: 60%;
+        background-color: rgb(180, 145, 145);
+        color: white;
+    }
+
+    textarea {
+        width: 60%;
+        background-color: white;
+        color: rgb(180, 145, 145);
+    }
+
+    input:focus {
+        background-color: white;
+        color: black;
+    }
+
+    textarea:focus {
+        color: black;
+    }
+}
+
+.contact ul {
+    list-style: none;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}

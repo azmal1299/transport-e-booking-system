@@ -1,0 +1,103 @@
+
+.banner-slider{
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 40px;
+}
+.banner-slide.slick-list {
+    height: 100%;
+}
+.banner-slider .slick-slider{
+    width: 100%;
+}
+.banner-slider img{
+    width: 100%;
+    height: 100%;
+}
+.banner-slider img:focus-visible{
+    outline: none;
+}
+.banner-slider .slider-img:focus-visible{
+    outline: none;
+}
+.banner-slider .slick-track {
+    height: 100%;
+}
+.banner-slider .slick-dots li.slick-active button:before {
+    opacity: .75;
+    background-color: #1caa9c;
+}
+.banner-slider .slick-dots li button:before {
+    content: "";
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 15px;
+    width: 10px;
+    height: 10px;
+    opacity: .25;
+    color: unset;
+    border-radius: 50%;
+    background-color: #1caa9c;
+    outline: 1px solid #1caa9c;
+    outline-offset: 3px;
+}
+.banner-slider .slick-dots li button {
+    width: 10px;
+    height: 10px;
+}
+.banner-slider .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 7px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.banner-slider .slick-prev, .banner-slider .slick-next {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    background: linear-gradient(198deg, #45b1a6, #91bf8d);
+    z-index: 10;
+}
+.banner-slider .slick-prev:hover, .banner-slider .slick-prev:focus, 
+.banner-slider .slick-next:hover, .banner-slider .slick-next:focus{
+    background: linear-gradient(198deg, #45b1a6, #91bf8d);
+}
+.banner-slider .slick-next {
+    right: -20px;
+}
+.banner-slider .slick-next::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 3px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    transform: rotate(313deg) translate(-50% , -50%) !important;
+}
+.banner-slider .slick-prev {
+    left: -20px;
+}
+.banner-slider .slick-prev::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 3px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    position: absolute;
+    top: 29%;
+    left: 14%;
+    transform: rotate(136deg) translate(-50% , -50%) !important;
+}
